@@ -40,7 +40,7 @@
 
                     <div class="tab-content">
                         <div id="register" class="container tab-pane active"><br>
-                            <form id="registerForm">
+                            <form id="registerForm" class="border rounded p-3">
                                 <div>
                                     <label for="fullname" class="form-label">Họ và tên</label>
                                     <input type="text" class="form-control" id="fullname" name="fullname" required
@@ -93,7 +93,7 @@
                                     </select>
                                 </div>
 
-                                <div class="">
+                                <div class="mb-3">
                                     <input class="form-check-input" type="checkbox" value="1" id="agree" name="agree">
                                     <label class="form-check-label" for="agree">Tôi đồng ý với các điều khoản và điều
                                         kiện</label>
@@ -104,7 +104,8 @@
                         </div>
 
                         <div id="login" class="container tab-pane fade"><br>
-                            <form id="loginForm" novalidate>
+                            <h4 class="mb-3 fw-semibold">Form Đăng Nhập</h4>
+                            <form id="loginForm" novalidate class="border rounded p-3">
                                 <div class="mb-3">
                                     <label class="form-label">Email</label>
                                     <input type="email" class="form-control" placeholder="Nhập email">
@@ -121,4 +122,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
