@@ -10,11 +10,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
-<body>
+<style>
+    .video-card img {
+        width: 100%;
+        border-radius: 10px;
+    }
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    .video-card {
+        border: 1px solid #e6e6e6;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .read-item img {
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+
+    .read-item {
+        display: flex;
+        margin-bottom: 12px;
+    }
+
+    .read-item b {
+        font-size: 14px;
+    }
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="Index.html">
                 <img src="images/logo-energy-pilates.png" alt="" style="width: 150px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -24,7 +53,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-list"></i> Bài viết</a>
+                        <a class="nav-link" href="Post.html"><i class="fa-solid fa-list"></i> Bài viết</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa-solid fa-film"></i> Video</a>
@@ -59,7 +88,12 @@
         </div>
     </nav>
 
+    <picture>
+        <img src="images/banner2.jpg" class="mx-auto d-block w-100" alt="banner">
+    </picture>
+
     <div class="container my-5">
+
         <div class="row">
             <div class="col-md-4">
                 <h4 class="text-info mb-3">Về tôi</h4>
@@ -72,19 +106,36 @@
                             chọn cách mình sẽ sống</p>
                     </div>
                 </div>
+                </head>
+                <div class="container mt-3">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active text-info" data-bs-toggle="tab" href="#read-more">Đọc nhiều</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info" data-bs-toggle="tab" href="#watch-more">Xem nhiều</a>
+                        </li>
+                        <li class="nav-item">
+                        </li>
+                    </ul>
+                </div>
 
-                <h5 class="text-info fw-bold">Chuyên mục</h5>
-                <ul class="list-group">
-                    <li class="list-group-item bg-info d-flex justify-content-between align-items-center">
-                        Chế độ tập <span class="badge bg-primary rounded-pill">12</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Chế độ dinh dưỡng <span class="badge bg-primary rounded-pill">15</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Cẩm nang cuộc sống <span class="badge bg-primary rounded-pill">99</span>
-                    </li>
-                </ul>
+                <div id="read-more" class="col-sm-7 p-3">
+                    <div class="read-item">
+                        <img src="images/corevalue.jpg">
+                        <div><b>Biết ơn đời, đời sẽ thương ta</b></div>
+                    </div>
+
+                    <div class="read-item">
+                        <img src="images/sesameoil_300x300.jpg">
+                        <div><b>10 công dụng bất ngờ từ dầu dừa</b></div>
+                    </div>
+
+                    <div class="read-item">
+                        <img src="images/spinach_300x300.jpg">
+                        <div><b>Lợi ích khi ăn rau mỗi ngày</b></div>
+                    </div>
+                </div>
             </div>
 
             <section class="col-sm-8">
@@ -157,17 +208,61 @@
                     </div>
 
                     <div class="text-center mt-3">
-                        <a href="#" class="btn btn-info text-white">Xem thêm</a>
+                        <a href="#" class="btn btn-info">Xem thêm</a>
                     </div>
                 </div>
-            </section>
+                <h4 class="text-info mt-4 text-center">VIDEO - ĐỪNG BỎ LỠ</h4>
+
+                <div class="row mt-3">
+
+                    <div class="col-md-6 mb-3">
+                        <div class="video-card">
+                            <img src="images/video1.jpg">
+                            <h6 class="fw-bold mt-2">Đi xa hơn để trưởng thành hơn</h6>
+                            <p>Tuổi trẻ chỉ nghĩ đến những chuyến đi, đôi mong một ngày được bay nhảy trên những phương
+                                trời mới lạ. Để rồi những cô đơn mê mải, tuổi trẻ ấy mới muốn một nơi để trở về.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="video-card">
+                            <img src="images/video2.jpg">
+                            <h6 class="fw-bold mt-2">Chút tâm tư những ngày cuối năm</h6>
+                            <p>Guồng quay cuộc sống đâu có vội vàng, đâu có tấp nập đến đâu thì cũng chẳng năm nào ngoài
+                                quy luật tự nhiên và bất biến xuân, hạ, thu, đông. Và rồi một năm cũ sắp trôi qua.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="video-card">
+                            <img src="images/video3.jpg">
+                            <h6 class="fw-bold mt-2">Ước gì được trở về tuổi thơ</h6>
+                            <p>Tuổi trẻ chỉ nghĩ đến những chuyến đi, đôi mong một ngày được bay nhảy trên những phương
+                                trời mới lạ. Để rồi những cô đơn mê mải, tuổi trẻ ấy mới muốn một nơi để trở về.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="video-card">
+                            <img src="images/video4.jpg">
+                            <h6 class="fw-bold mt-2">Ba người thầy vĩ đại</h6>
+                            <p>Ta xem vạn vật là thầy. Tính thần học hỏi của ta luôn rộng mở hơn tất cả các người. Ta
+                                học từ một hạt cát nhỏ, một cành cây con nhỏ đến áng mây trên trời kia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-info px-4">Xem thêm</button>
+                </div>
+
         </div>
     </div>
+    </section>
 
-    <footer class="bg-dark text-white py-3 mt-5">
+    <footer class="bg-dark text-white text-center py-3 mt-5">
         ©Copyright by FPT Polytechnic
     </footer>
-
 </body>
 
 </html>
