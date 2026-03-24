@@ -3,7 +3,7 @@
   <h1>{{ greeting }}</h1>
 
   <!-- Tạo nút thay đổi nội dung -->
-  <button v-bind:title="buttonTitle" @click="changeGreeting">Click để thay đổi</button>
+  <button v-bind:title="buttonTitle" @click="changeGreeting" class="btn btn-success">Click để thay đổi</button>
 </template>
 
 <script>
@@ -22,3 +22,5 @@ export default{
     }
 }
 </script>
+<style scoped>
+</style>
