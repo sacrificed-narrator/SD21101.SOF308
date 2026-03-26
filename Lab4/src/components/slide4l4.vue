@@ -7,6 +7,7 @@
     <button @click="decrement" class="btn btn-success">-</button>
     <button @click="reset" class="btn btn-danger">Reset</button>
     <button @click="changeClassName" class="btn btn-warning">Change class</button>
+    
     <h2 v-html="count"></h2>
 </div>
 </template>

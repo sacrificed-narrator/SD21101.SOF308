@@ -14,7 +14,7 @@ import slide4l4 from './components/slide4l4.vue';
         <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#bai3">Bài 3</button></li>
         <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#bai4">Bài 4</button></li>
         <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#sl4">Slide 4 Lab 4</button></li>
-    </ul>
+  </ul>
     <div class="tab-content border p-3">
       <div class="tab-pane fade show active" id="bai2"><Hello /></div>
       <div class="tab-pane fade" id="bai3"><Bai3 /></div>
