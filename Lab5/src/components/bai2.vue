@@ -1,4 +1,5 @@
 <template>
+    <h1>Bài 2</h1>
     <div>
         <input v-model="userInput" placeholder="Nhập dữ liệu vào đây" />
         <p>Giá trị bạn nhập: {{ userInput }}</p>

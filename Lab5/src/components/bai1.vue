@@ -1,4 +1,5 @@
 <template>
+  <h1>Bài 1</h1>
   <div class="p-5">
     <p>Thông điệp: {{ message }}</p>
     <button class="btn btn-dark" @click="updateMessage">QUA CAMPUCHIA NGAY!1!1</button>

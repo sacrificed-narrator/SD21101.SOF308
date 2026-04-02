@@ -1,6 +1,6 @@
 <template>
+    <h1>Bài 3</h1>
     <div class="col-sm-8">
-        <h1>Bài 3 - Thông tin cá nhân</h1>
         <form>
             <div class="mb-3">
                 <label>Họ và Tên:</label>
