@@ -9,5 +9,5 @@
 <script setup>
 import { ref } from 'vue';
 
-const userInput = ref('FPL');
+const userInput = ref('LeL');
 </script>
