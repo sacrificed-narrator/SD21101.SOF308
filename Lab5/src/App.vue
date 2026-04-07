@@ -15,7 +15,7 @@ function addPost(post) {
 
 <template>
   <div class="container mt-5">
-    <h1 class="text-center">22 - Nguyễn Võ Vĩnh Lộc - Lab 4</h1>
+    <h1 class="text-center">22 - Nguyễn Võ Vĩnh Lộc - Lab 6</h1>
     <ul class="nav nav-tabs" id="myTabs" role="tablist">
       <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#bai1">Bài 1</button></li>
       <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#bai2">Bài 2</button></li>
