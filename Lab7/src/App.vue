@@ -1,0 +1,20 @@
+<template>
+  <bai1></bai1>
+  <bai2></bai2>
+  <bai3></bai3>
+  <bai4></bai4>
+</template>
+
+<script setup>
+
+import bai1 from './components/bai1.vue'
+import bai2 from './components/bai2.vue'
+import bai3 from './components/bai3.vue'
+import bai4 from './components/bai4.vue'
+</script>
+<style scoped>
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}</style>

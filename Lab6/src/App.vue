@@ -6,6 +6,7 @@
       <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#bai2">Bài 2</button></li>
       <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#bai3">Bài 3</button></li>
       <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#bai4">Bài 4</button></li>
+      <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#la">Language</button></li>
     </ul>
     <div class="tab-content border p-3">
       <div class="tab-pane fade show active" id="bai1">
@@ -20,8 +21,12 @@
       <div class="tab-pane fade" id="bai4">
         <bai4 />
       </div>
+      <div class="tab-pane fade" id="la">
+        <language />
+      </div>
     </div>
   </div>
+  
 </template>
 
 <script setup>
@@ -30,6 +35,8 @@ import bai1 from './components/bai1.vue'
 import bai2 from './components/bai2.vue'
 import bai3 from './components/bai3.vue'
 import bai4 from './components/bai4.vue'
+import language from './components/language.vue';
+
 </script>
 <style scoped>
 #app {
